@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 96%;
+    margin: 0 auto;
+    box-shadow:3px 2px 20px rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 20px;
+    width: 300px;  
+    margin: 20px;
+    border: 1px solid;
+}
+
+.image__description {
+    padding: 20px;
+}
+
+.image__price {
+    margin-top: 11px;
+}
+
+.image__description {
+    margin-bottom: 10px;
+}
+
+.image__title {
+    margin-bottom: 27px;
+}
+
+.vector__img {
+    cursor: pointer;
+}
